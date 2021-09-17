@@ -27,5 +27,36 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background('green');
+  
+  num1 = input_num1.value();
+  num2 = input_num2.value();
+  var opr = operator.value();
+  
+  switch (opr) {
+      
+    case '+':
+      console.log("Addition of num1 & num2: ");
+      console.log(int(num1) + int(num2));
+      break;
+      
+    case '-':
+      
+      
+      break;
+      
+    case '*':
+     
+      
+      break;
+      
+    case '/':
+      
+      
+      break;
+    
+    default:
+      
+  }
 }
+
